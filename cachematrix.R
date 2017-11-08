@@ -1,4 +1,6 @@
-## The functions below calculate the inverse of a matrix. Upon subsequent calculation of the inverse of the same matrix, the result will be retrieved from the cache, rather than performing the calculation again.
+## The functions below calculate the inverse of a matrix. Upon subsequent 
+calculation of the inverse of the same matrix, the result will be retrieved 
+from the cache, rather than performing the calculation again.
 
 ## makeCacheMatrix creates a vector through which 4 functions can be executed:
 ## 1. sets the value of the matrix
@@ -21,7 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve solves the inverse of a matrix. It will first determine if the inverse of the matrix has already been solved. If so, it will retrieve it from the cache. If not, it will do the calculation.
+## cacheSolve solves the inverse of a matrix. It will first determine if the 
+inverse of the matrix has already been solved. If so, it will retrieve it 
+from the cache. If not, it will do the calculation.
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
